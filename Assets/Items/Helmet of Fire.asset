@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 149a3cf10bcb24b4fa0be2a0efba7772, type: 3}
   m_Name: Helmet of Fire
   m_EditorClassIdentifier: 
-  itemName: New Item
-  icon: {fileID: 0}
+  itemName: Helmet of Fire
+  icon: {fileID: 21300000, guid: 9a3213cc994f26a4084e4b377dfc5652, type: 3}
   isDefaultItem: 0
+  equipSlot: 0
+  armorModifier: 3
+  damageModifier: 0
