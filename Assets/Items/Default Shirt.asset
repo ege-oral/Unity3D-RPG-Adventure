@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 149a3cf10bcb24b4fa0be2a0efba7772, type: 3}
-  m_Name: Platebody
+  m_Name: Default Shirt
   m_EditorClassIdentifier: 
-  itemName: Platebody
-  icon: {fileID: 21300000, guid: 3b9c73ffbc5f0f746ba6d986f7660c4b, type: 3}
-  isDefaultItem: 0
+  itemName: Default Shirt
+  icon: {fileID: 0}
+  isDefaultItem: 1
   equipSlot: 1
-  mesh: {fileID: 5788169697310595448, guid: 7a928a1dba1b2054ababacae391a9fbc, type: 3}
+  mesh: {fileID: 4175120892342289381, guid: 91b1a9d619b9ada48ab30655d35f00e0, type: 3}
   coveredMeshRegions: 0100000002000000
   armorModifier: 0
-  damageModifier: 3
+  damageModifier: 0

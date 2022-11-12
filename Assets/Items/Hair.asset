@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 149a3cf10bcb24b4fa0be2a0efba7772, type: 3}
-  m_Name: Platebody
+  m_Name: Hair
   m_EditorClassIdentifier: 
-  itemName: Platebody
-  icon: {fileID: 21300000, guid: 3b9c73ffbc5f0f746ba6d986f7660c4b, type: 3}
-  isDefaultItem: 0
-  equipSlot: 1
-  mesh: {fileID: 5788169697310595448, guid: 7a928a1dba1b2054ababacae391a9fbc, type: 3}
-  coveredMeshRegions: 0100000002000000
+  itemName: Hair
+  icon: {fileID: 0}
+  isDefaultItem: 1
+  equipSlot: 0
+  mesh: {fileID: 860281207503521112, guid: 83fe8a65ed8d3d44cb59ee0ff8758f7c, type: 3}
+  coveredMeshRegions: 
   armorModifier: 0
-  damageModifier: 3
+  damageModifier: 0
