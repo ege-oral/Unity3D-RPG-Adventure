@@ -922,7 +922,7 @@ GameObject:
   - component: {fileID: 272431434}
   - component: {fileID: 272431431}
   - component: {fileID: 272431430}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Platebody Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2198,6 +2198,9 @@ MonoBehaviour:
   movementMask:
     serializedVersion: 2
     m_Bits: 64
+  interactable:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!114 &538574672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2251,6 +2254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 467298adacd6ec84da3dc53f704cef11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackSpeed: 1
 --- !u!1001 &542056962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2381,7 +2385,7 @@ GameObject:
   - component: {fileID: 560799610}
   - component: {fileID: 560799607}
   - component: {fileID: 560799606}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Platelegs Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3586,7 +3590,7 @@ GameObject:
   - component: {fileID: 837925636}
   - component: {fileID: 837925633}
   - component: {fileID: 837925632}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Helmet Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6960,7 +6964,7 @@ GameObject:
   - component: {fileID: 1796870925}
   - component: {fileID: 1796870927}
   - component: {fileID: 1796870926}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7457,7 +7461,7 @@ GameObject:
   - component: {fileID: 1907347159}
   - component: {fileID: 1907347158}
   - component: {fileID: 1907347160}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7588,6 +7592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 467298adacd6ec84da3dc53f704cef11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackSpeed: 1
 --- !u!1 &1917560325
 GameObject:
   m_ObjectHideFlags: 0
@@ -8993,6 +8998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platelegs
       objectReference: {fileID: 0}
+    - target: {fileID: 8007340244672052175, guid: 4ff8ad6658f6ce24eba141a740b8ef52, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff8ad6658f6ce24eba141a740b8ef52, type: 3}
 --- !u!1 &3492960644665722393
@@ -9569,6 +9578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platebody
       objectReference: {fileID: 0}
+    - target: {fileID: 8904770617639025823, guid: add4111c4d000a14d8cd702a013cb0e7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: add4111c4d000a14d8cd702a013cb0e7, type: 3}
 --- !u!4 &6457554543953197743
@@ -9613,6 +9626,10 @@ PrefabInstance:
     - target: {fileID: 5703875250310198889, guid: 514d7229de1a0a540aa7c022d9c0137f, type: 3}
       propertyPath: m_Name
       value: Helmet
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703875250310198889, guid: 514d7229de1a0a540aa7c022d9c0137f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7950555067275524644, guid: 514d7229de1a0a540aa7c022d9c0137f, type: 3}
       propertyPath: m_RootOrder

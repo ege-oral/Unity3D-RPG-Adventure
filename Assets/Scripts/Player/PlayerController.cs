@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
 {
     public Interactable focus;
     public LayerMask movementMask;
+    public LayerMask interactable;
+
     Camera mainCamera;
     PlayerMotor motor;
 
@@ -39,7 +41,7 @@ public class PlayerController : MonoBehaviour
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if(Physics.Raycast(ray, out hit, 100))
+            if(Physics.Raycast(ray, out hit, 100, interactable))
             {
                 Interactable interactable = hit.collider.GetComponent<Interactable>();
                 if(interactable != null)
