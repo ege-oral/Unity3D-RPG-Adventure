@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    public Transform target;  // Reference to the player.
+    public Vector3 offset;    // Offset of the camera. Adjust camera position.
 
-    public Transform target;
-    public Vector3 offset;
-
-    public float pitch = 2f;
+    public float pitch = 2f;       // Look at the player little bit higher.
     public float yawSpeed = 100f;
     private float currentYaw = 0f;
 
@@ -20,7 +19,7 @@ public class CameraController : MonoBehaviour
     private void Update() 
     {
         currentZoom -= Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
-        currentZoom = Mathf.Clamp(currentZoom, minZoom, maxZoom);
+        currentZoom = Mathf.Clamp(currentZoom, minZoom, maxZoom); // Zoom can't be lower than minZoom and higher than maxZoom.
         currentYaw -= Input.GetAxis("Horizontal") * yawSpeed * Time.deltaTime;
     }
 

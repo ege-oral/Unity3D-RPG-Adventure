@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerStats : CharacterStats
 {
-    
     void Start()
     {
         EquipmentManager.instance.onEquipmentChange += OnEquipmentChanged;

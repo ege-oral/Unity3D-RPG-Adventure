@@ -66,9 +66,6 @@ public class EquipmentManager : MonoBehaviour
         {
             onEquipmentChange.Invoke(newItem, oldItem);
         }
-        
-        //SetEquipmentBlendShapes(newItem, 100);
-  
 
         currentEquipment[slotIndex] = newItem;
 
@@ -124,10 +121,6 @@ public class EquipmentManager : MonoBehaviour
                 }
             }
         }
-        // foreach(EquipmentMeshRegion blendShape in item.coveredMeshRegions)
-        // {
-        //     targetMesh.SetBlendShapeWeight((int)blendShape, weight);
-        // }
     }
 
     public void EquipDefaultItem()
