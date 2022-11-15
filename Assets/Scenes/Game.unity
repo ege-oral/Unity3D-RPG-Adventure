@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: d22cf0ba0418b3d4aa3ea90ba74c3a92, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 3a933650a876498468605db4455429cf, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -419,7 +419,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &142467511
 PrefabInstance:
@@ -2104,9 +2104,9 @@ GameObject:
   - component: {fileID: 538574666}
   - component: {fileID: 538574670}
   - component: {fileID: 538574672}
-  - component: {fileID: 538574673}
   - component: {fileID: 538574674}
   - component: {fileID: 538574675}
+  - component: {fileID: 538574673}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2255,6 +2255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackSpeed: 1
+  attackDelay: 0.6
 --- !u!1001 &542056962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3756,7 +3757,7 @@ Transform:
   - {fileID: 272431434}
   - {fileID: 560799610}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &894766130 stripped
 Transform:
@@ -4551,7 +4552,7 @@ RectTransform:
   m_Children:
   - {fileID: 1596287806}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7343,7 +7344,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1877813480 stripped
 RectTransform:
@@ -7547,7 +7548,7 @@ Transform:
   m_Children:
   - {fileID: 1796870925}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1907347158
 MonoBehaviour:
@@ -7593,6 +7594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackSpeed: 1
+  attackDelay: 0.6
 --- !u!1 &1917560325
 GameObject:
   m_ObjectHideFlags: 0

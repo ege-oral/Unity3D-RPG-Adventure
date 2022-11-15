@@ -6,13 +6,15 @@ using UnityEngine.AI;
 public class EnemyController : MonoBehaviour
 {
     public float lookRadius = 10f;
-    Transform target;
-    NavMeshAgent agent;
+    Transform target;   // Reference to the player.
+    NavMeshAgent agent; // Reference to the NavMeshAgent.
+    CharacterCombat combat;
 
     private void Start() 
     {
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
+        combat = GetComponent<CharacterCombat>();
     }
 
     private void Update() 
@@ -25,7 +27,12 @@ public class EnemyController : MonoBehaviour
 
             if(distance <= agent.stoppingDistance)
             {
-                FaceTarget();
+                CharacterStats targetStats = target.GetComponent<CharacterStats>();
+                if(targetStats != null)
+                {
+                    combat.Attack(targetStats);
+                }
+                FaceTarget(); // Make sure to face towards the target.
             }
         }
     }
