@@ -4,16 +4,27 @@ using UnityEngine;
 
 public class test2 : test
 {
-    public override void SayHi()
-    {
-        counter += 1;
-        print("merhaba");
+
+    private void Awake() {
+        //SayHi();
+        testCallback += Selam;
+        testINTCallback += Selam_INT;
     }
 
-    private void Update() {
-        if(Input.GetKeyDown(KeyCode.Y))
-        {
-            SayHi();
-        }
+    public override void SayHi()
+    {
+        base.SayHi();
+        Debug.Log("this is child");
+    }
+
+    public void Selam()
+    {
+        print("selam");
+
+    }
+
+    public int Selam_INT(int i)
+    {
+        return i;
     }
 }
