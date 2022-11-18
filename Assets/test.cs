@@ -17,7 +17,9 @@ public class test : MonoBehaviour
     void Start()
     {
         if(testCallback != null)
-            testCallback.Invoke();
+        {
+            testCallback();
+        }
 
         if(testINTCallback != null)
         {
@@ -29,12 +31,6 @@ public class test : MonoBehaviour
         test4.instance.SingletonTest();
         // SayHi();
         // print(counter);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public virtual void SayHi()
