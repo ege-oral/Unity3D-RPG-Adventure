@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149a3cf10bcb24b4fa0be2a0efba7772, type: 3}
+  m_Name: Diamond Helmet
+  m_EditorClassIdentifier: 
+  itemName: Diamond Helmet
+  icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  isDefaultItem: 0
+  equipSlot: 0
+  mesh: {fileID: 635269030768278663, guid: 84984008c5b33ae408e33a52ba5242e1, type: 3}
+  coveredMeshRegions: 
+  armorModifier: 2
+  damageModifier: 2
