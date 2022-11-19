@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Diamond Helmet
   m_EditorClassIdentifier: 
   itemName: Diamond Helmet
-  icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  icon: {fileID: 21300000, guid: 9227b21aa45132e41843572cee596b27, type: 3}
   isDefaultItem: 0
   equipSlot: 0
   mesh: {fileID: 635269030768278663, guid: 84984008c5b33ae408e33a52ba5242e1, type: 3}

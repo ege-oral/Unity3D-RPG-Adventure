@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Leather Helmet
   m_EditorClassIdentifier: 
   itemName: Leather Helmet
-  icon: {fileID: 21300000, guid: abe4ea23ae09b314992c38ce0e85d520, type: 3}
+  icon: {fileID: 21300000, guid: a71525d588f2e4a4dbd8aabcc8a6dc2c, type: 3}
   isDefaultItem: 0
   equipSlot: 0
   mesh: {fileID: 635269030768278663, guid: eb29b33d243943945ae0cd909b810923, type: 3}

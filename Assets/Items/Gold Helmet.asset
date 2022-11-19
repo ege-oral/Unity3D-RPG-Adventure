@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gold Helmet
   m_EditorClassIdentifier: 
   itemName: Gold Helmet
-  icon: {fileID: 21300000, guid: acc6fa97a23da6f45961a1ce69befb23, type: 3}
+  icon: {fileID: 21300000, guid: 3af0eea01a35d4349957537054251354, type: 3}
   isDefaultItem: 0
   equipSlot: 0
   mesh: {fileID: 635269030768278663, guid: 8aee27bb90402ab43be2ff44a210035a, type: 3}
