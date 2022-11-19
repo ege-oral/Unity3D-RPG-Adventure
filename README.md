@@ -2,7 +2,7 @@
 ### There is a copy of this game in the Releases section!
 ### This game is inspired by the Brackeys youtube channel and made for educational purposes.
 
-In this game player has an inventory to collect armor pieces. There are 3 kind of armor pieces in this game. Helmet, Body Armor and Leg Armor. Enemy and combat system will be added in the future.
+This project is a Point & Click RPG game. In this game player has an inventory to collect armor pieces. There are 3 kind of armor pieces in this game. Helmet, Body Armor and Leg Armor. Enemy and combat system will be added in the future.
 
 * Player can move the character with Left Mouse Click.
 * Player can interact objects with Right Mouse CLick.
