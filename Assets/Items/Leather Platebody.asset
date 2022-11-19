@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Leather Platebody
   m_EditorClassIdentifier: 
   itemName: Leather Platebody
-  icon: {fileID: 21300000, guid: abe4ea23ae09b314992c38ce0e85d520, type: 3}
+  icon: {fileID: 21300000, guid: a0166eaf76e31444eb7455018bad484c, type: 3}
   isDefaultItem: 0
   equipSlot: 1
   mesh: {fileID: 5788169697310595448, guid: 7a928a1dba1b2054ababacae391a9fbc, type: 3}

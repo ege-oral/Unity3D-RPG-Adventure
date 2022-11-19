@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Platelegs
   m_EditorClassIdentifier: 
   itemName: Platelegs
-  icon: {fileID: 21300000, guid: 4cec0b31d9aab6a439aef958002cc6c1, type: 3}
+  icon: {fileID: 21300000, guid: 38905d8bb8276a449b703afdebf817f6, type: 3}
   isDefaultItem: 0
   equipSlot: 2
   mesh: {fileID: 6434900973020174668, guid: d3da7551e4d06ca4cbf5297bbf2302e5, type: 3}

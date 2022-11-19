@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Diamond Platebody
   m_EditorClassIdentifier: 
   itemName: Diamond Platebody
-  icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  icon: {fileID: 21300000, guid: cb8698ba084c7c041a321cb97f8e5eb9, type: 3}
   isDefaultItem: 0
   equipSlot: 1
   mesh: {fileID: 5788169697310595448, guid: 7d988b40cd3da8b4387ec1965fd96dce, type: 3}

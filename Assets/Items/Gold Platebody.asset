@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gold Platebody
   m_EditorClassIdentifier: 
   itemName: Gold Platebody
-  icon: {fileID: 21300000, guid: acc6fa97a23da6f45961a1ce69befb23, type: 3}
+  icon: {fileID: 21300000, guid: 557756ef394e126438af965d3e0e5af0, type: 3}
   isDefaultItem: 0
   equipSlot: 1
   mesh: {fileID: 5788169697310595448, guid: 1377995f3818f084eb1061d1bff1a8e4, type: 3}

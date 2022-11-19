@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Platebody
   m_EditorClassIdentifier: 
   itemName: Platebody
-  icon: {fileID: 21300000, guid: 3b9c73ffbc5f0f746ba6d986f7660c4b, type: 3}
+  icon: {fileID: 21300000, guid: 740f65646450c63458d5a14e8c35566c, type: 3}
   isDefaultItem: 0
   equipSlot: 1
   mesh: {fileID: 5788169697310595448, guid: b132e0523653ca848b304ddf4ed3a9c1, type: 3}
