@@ -6,6 +6,9 @@ This project is a Point & Click RPG game. In this game player has an inventory s
 
 * Player can move the character with Left Mouse Click.
 * Player can interact objects with Right Mouse CLick.
+* Player can open and close the inventory with 'Tab' key.
+* Player can select and equip the item on the inventory page.
+* Player can delete the item on the inventory page.
 * Player can rotate the camera with 'a' and 'd' keys.
 * Player can exit the game with 'escape' key.
 * Player can restart the game with 'r' key.
