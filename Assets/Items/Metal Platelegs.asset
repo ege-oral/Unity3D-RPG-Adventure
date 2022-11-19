@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 149a3cf10bcb24b4fa0be2a0efba7772, type: 3}
-  m_Name: Platebody
+  m_Name: Metal Platelegs
   m_EditorClassIdentifier: 
-  itemName: Platebody
-  icon: {fileID: 21300000, guid: 740f65646450c63458d5a14e8c35566c, type: 3}
+  itemName: Metal Platelegs
+  icon: {fileID: 21300000, guid: 38905d8bb8276a449b703afdebf817f6, type: 3}
   isDefaultItem: 0
-  equipSlot: 1
-  mesh: {fileID: 5788169697310595448, guid: b132e0523653ca848b304ddf4ed3a9c1, type: 3}
-  coveredMeshRegions: 0100000002000000
-  armorModifier: 4
+  equipSlot: 2
+  mesh: {fileID: 6434900973020174668, guid: d3da7551e4d06ca4cbf5297bbf2302e5, type: 3}
+  coveredMeshRegions: 00000000
+  armorModifier: 3
   damageModifier: 2
